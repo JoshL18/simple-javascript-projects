@@ -21,7 +21,7 @@ editButton.addEventListener('click', function() {
 
 		editButton.value = 'Save';
 	}
-	if (editButton.value === 'Save') {
+	else {
 		var inputbox = document.getElementById('inputbox');
 
     inputParagraph.innerHTML = inputbox.value;
